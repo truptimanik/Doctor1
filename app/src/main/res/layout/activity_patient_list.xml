@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.doctor.PatientList"
+    android:background="@drawable/custom_background"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="30sp"
+        android:textColor="@color/heading"
+        android:gravity="center_horizontal"
+        android:text="List of Patient"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/litview"
+        android:layout_below="@id/Text4"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        ></ListView>
+
+
+</RelativeLayout>

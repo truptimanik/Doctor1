@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/medical_hitory"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Medical History" />
+        <item
+            android:id="@+id/get_appointment"
+            android:icon="@drawable/ic_queue_black_24dp"
+            android:title="Give Appointment" />
+        <item
+            android:id="@+id/pill_schedule"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="Pill Schedule" />
+        <item
+            android:id="@+id/view_reports"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="Submit Reports" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/chat"
+                android:icon="@drawable/ic_chat_black_24dp"
+                android:title="Chat with Patient" />
+           <!-- <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" /> -->
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/Sign_out"
+        android:icon="@drawable/ic_undo_black_24dp"
+        android:title="Sign Out" />
+</menu>

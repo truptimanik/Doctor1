@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "59548722023",
+    "firebase_url": "https://doctor-aec23.firebaseio.com",
+    "project_id": "doctor-aec23",
+    "storage_bucket": "doctor-aec23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59548722023:android:4936a02c18eb4586",
+        "android_client_info": {
+          "package_name": "com.example.asus.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59548722023-du09gf26g8ic40hdpj4gl2mv5cmdntfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnOfjt5BcYRNNJZw1jRWN6THWj_81_kpI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

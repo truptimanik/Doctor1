@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    tools:context="com.example.asus.doctor.pat_history"
+    android:padding="30dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:text="Patient Medical History"
+        android:textColor="@color/heading"
+        android:gravity="center"/>
+
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="name"
+        android:background="#f3f3f3"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="50dp"/>
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="Age"
+        android:background="#f3f3f3"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="15dp"/>
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="Weight"
+        android:background="#f3f3f3"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="15dp"/>
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="Medical Condition"
+        android:background="#f3f3f3"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="15dp"/>
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:hint="Allergies: Put Nil if none"
+        android:background="#f3f3f3"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="15dp"/>
+    <Button android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="submit"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/custom_button"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/custom_background"
+    tools:context="com.example.asus.firebase_login.com.example.asus.doctor.MainActivity">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="23dp"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/heading"
+            android:layout_gravity="center_horizontal"
+            android:text="Doctor Registration"
+            android:layout_weight="0.18" />
+
+        <EditText
+        android:layout_margin="15dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter your email"
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="#f3f3f3"
+        />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:hint="Enter your password"
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:background="#f3f3f3"
+        />
+
+
+
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button"
+            android:text="Register" />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/heading"
+        android:text="Already Registered? Sign in here"
+        android:id="@+id/TextViewSignin"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+         />
+    </LinearLayout>
+
+</RelativeLayout>

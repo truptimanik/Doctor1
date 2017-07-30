@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Patient Medical History"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/heading"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextname"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="#f3f3f3"
+        android:hint="name"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/editTextage"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="#f3f3f3"
+        android:hint="Age"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/editTextweight"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="#f3f3f3"
+        android:hint="Weight"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/editTextcondition"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="#f3f3f3"
+        android:hint="Medical Condition"
+        android:paddingLeft="5dp" />
+
+    <EditText
+        android:id="@+id/editTextallergy"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="#f3f3f3"
+        android:hint="Allergies: Put Nil if none"
+        android:paddingLeft="5dp" />
+
+    <Button
+        android:id="@+id/Buttonsubmit"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="submit"
+        android:textColor="#fff" />
+
+
+
+</LinearLayout>
