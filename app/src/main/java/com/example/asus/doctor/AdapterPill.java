@@ -69,7 +69,8 @@ public class AdapterPill extends ArrayAdapter<inputPill>  {
             holder.delete = (Switch)convertView.findViewById(R.id.switch_Delete);
 
 
-         /*   holder.delete.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+         /*    // To delete Pills
+         holder.delete.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                 @Override
                 public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                     if(isChecked==true){

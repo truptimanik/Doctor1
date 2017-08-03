@@ -3,6 +3,8 @@ package com.example.asus.doctor;
 /**
  * Created by ASUS on 23-07-2017.
  */
+
+//POJO class for chat messages
 import java.util.Date;
 public class Message {
     private String mText;

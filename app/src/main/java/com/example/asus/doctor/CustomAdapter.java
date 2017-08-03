@@ -3,7 +3,7 @@ package com.example.asus.doctor;
 /**
  * Created by ASUS on 16-07-2017.
  */
-
+// NOt in use
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

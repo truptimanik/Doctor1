@@ -116,8 +116,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         //finish();
                     }
                     else{
+
+                        if(email!="doc@gmail.com")
+                        {
+                            Toast.makeText(MainActivity.this,"This Doctor is Still not Approved",Toast.LENGTH_SHORT).show();
+                            progressDialog.dismiss();
+                            return;
+
+                        }
+                        else{
                         Toast.makeText(MainActivity.this,"Fail Try Again",Toast.LENGTH_SHORT).show();
-                        finish();
+                        finish(); }
                     }
                 }
 

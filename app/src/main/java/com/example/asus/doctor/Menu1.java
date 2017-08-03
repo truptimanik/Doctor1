@@ -81,23 +81,10 @@ private DatabaseReference databaseReference;
                     FirebaseUser user = auth.getCurrentUser();
 
                 System.out.println("====get name==="+name);
-         //     String id = databaseReference.child("PATIENT").push().getKey();
-              //  databaseReference.child(id).equalTo(userid);
 
 
                 databaseReference.child("PATIENT").child(USERID).child("PATIENT HISTORY").setValue(inputPatientHistory);
 
-
-
-
-
-             //   databaseReference.child(user.getUid()).child("Medical History").setValue(inputPatientHistory);
-
-
-              // databaseReference.child(id).setValue(inputPatientHistory);
-               // databaseReference.child("Medical History").setValue(inputPatientHistory);
-
-                 //   databaseReference.child(user.getUid()).setValue(inputPatientHistory);
                     Toast.makeText(getContext(), "Info Saved...", Toast.LENGTH_LONG).show();
 
                 }

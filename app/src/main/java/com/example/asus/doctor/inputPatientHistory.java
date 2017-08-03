@@ -4,6 +4,8 @@ package com.example.asus.doctor;
  * Created by ASUS on 17-07-2017.
  */
 
+//Simple POJO class
+
 public class inputPatientHistory {
 
     public String name;

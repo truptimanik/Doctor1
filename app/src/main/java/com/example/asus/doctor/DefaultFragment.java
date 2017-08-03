@@ -4,6 +4,8 @@ package com.example.asus.doctor;
  * Created by ASUS on 16-07-2017.
  */
 
+//for creating new default fragment for each menu
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;

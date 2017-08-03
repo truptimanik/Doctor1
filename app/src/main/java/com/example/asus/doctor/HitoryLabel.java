@@ -4,6 +4,8 @@ package com.example.asus.doctor;
  * Created by ASUS on 20-07-2017.
  */
 
+// Not needed any more
+
 public class HitoryLabel {
     public String getMedicalhitoryLabel() {
         return medicalhitoryLabel;

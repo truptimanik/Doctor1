@@ -3,6 +3,7 @@ package com.example.asus.doctor;
 /**
  * Created by ASUS on 16-07-2017.
  */
+//to set the name and image in navigation drawer
 
 public class ItemObject {
 
